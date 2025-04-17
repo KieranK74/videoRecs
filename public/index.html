@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Aggie Textbook Converter</title>
-		<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="styles.css" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Aggie Textbook Converter</title>
+	<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-		<div class="container">
+	<div class="container">
 		<header>
-				<h1>Aggie Textbook Converter</h1>
+			<h1>Aggie Textbook Converter</h1>
 		</header>
-		
+
 		<main>
-				<p class="tool-desc"> This tool converts a textbook chapter description into keywords, then finds a related YouTube video </p>
-				<label for="chapter-input">Enter Your Chapter Description</label>
-				<textarea id="chapter-input" rows="6" placeholder="Type your chapter description here..."></textarea>
-				<button id="submit">Find Videos</button>
-				
-				<h2>Results:</h2>
-				<section id="results">
+			<p class="tool-desc"> This tool converts a textbook chapter description into keywords, then finds a related
+				YouTube video </p>
+			<label for="chapter-input">Enter Your Chapter Description</label>
+			<textarea id="userInput" class="chapter-input" rows="6"
+				placeholder="Type your chapter description here..."></textarea>
+			<button id="submit">Find Videos</button>
+
+			<h2>Results:</h2>
+			<section id="results">
 				<!-- YouTube embeds or links will go here -->
-				</section>
+			</section>
 		</main>
 		<script src="script.js"></script>
 
 		<footer>
-				<div class="footer-grid">
+			<div class="footer-grid">
 				<div>
-						<strong>Created by:</strong><br />
-						Kieran Kahler<br />
-						Nathan Marvin<br />
-						Will Taylor<br />
-						Ryan Wu
+					<strong>Created by:</strong><br />
+					Kieran Kahler<br />
+					Nathan Marvin<br />
+					Will Taylor<br />
+					Ryan Wu
 				</div>
 				<div>
-						Made for CSCE 432 Spring 2025 at Texas A&M Department of Computer Science<br />
-						GitHub repository: <a href="#">GitHub Link</a><br />
-						&copy; 2025
+					Made for CSCE 432 Spring 2025 at Texas A&M Department of Computer Science<br />
+					GitHub repository: <a href="#">GitHub Link</a><br />
+					&copy; 2025
 				</div>
-				</div>
+			</div>
 		</footer>
-		</div>
+	</div>
 </body>
+
 </html>
