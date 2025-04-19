@@ -13,7 +13,7 @@ app.post('/analyze', async (req, res) => {
     const prompt = `Extract 3 short, clear YouTube search phrases based on this textbook content to help someone find relevant educational videos:\n\n"${userInput}"`;
 
     try {
-        // Hugging Face inference call
+        // Hugging Face inference call go
         const hfResponse = await axios.post(
             'https://api-inference.huggingface.co/models/google/flan-t5-base',
             { inputs: prompt },
